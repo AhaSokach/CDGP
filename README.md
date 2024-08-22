@@ -8,12 +8,8 @@ python train.py --gpu 0 --prefix aminer --lr 0.00001 --patience 20 -d aminer
 
 ### End2End
 
-```python
-
 python train.py --gpu 0 --prefix aminer --lr 0.00001 --patience 20 -d aminer --end2end
 
 ### Pre-train with edge prediction task
-
-```python
 
 python pretrain.py --gpu 0 --prefix aminer --lr 0.0001 --patience 20 -d aminer
